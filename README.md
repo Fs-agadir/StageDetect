@@ -1,4 +1,4 @@
-# StageDetect: An image-based tool for automatic water stage detection
+# StageDetect
 
 This program detects water stage using image sequences. It includes camera orientation, template 
 matching for GCP detection, master retrieval from image sequence, image co-registration, water line 
