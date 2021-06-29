@@ -21,7 +21,9 @@ coordinates”  button “Img Master List”
 - Folder with images is folder “img_raw” in tutorial dataset
 - save all masters in a new folder
 
-<img hight="300" width="700" alt="GIF" align="center" src="https://github.com/fs-agadir/stagedetect/blob/main/cap1.png">
+![cap1](https://user-images.githubusercontent.com/81013477/123819792-e43c5380-d8ae-11eb-80ca-6eb78e8919c2.PNG)
+
+
 
 2. Retrieve GCP image points for each master image of all sequences: rider “get GCP image 
 coordinates”  „Template Matching“
@@ -31,7 +33,7 @@ in tutorial dataset it is file “Template_GCP_img.txt”
 dataset it is file “firstImgTemplate.jpg”
 - master image folder (step 1) should be used for template matching
 
-![alt text](https://github.com/fs-agadir/stagedetect/blob/img/cap2.png?raw=true)
+![cap2](https://user-images.githubusercontent.com/81013477/123820013-177ee280-d8af-11eb-8946-c56c70ef5e5f.PNG)
 
 3. Get approximation of water line (to define RoI): rider “2D to 3D (and again 2D)”  check “Water 
 line Approx”  button “Get 3D form 2D”
@@ -43,14 +45,14 @@ distortion and to orient image)  in tutorial dataset it is file “CameraCali
 - GCP coordinates have to be given  in tutorial dataset it is file “GCP_coordinates.txt”
 - Corresponding image measurements to GCP coordinates are in result folder of step 2
 
-![alt text](https://github.com/fs-agadir/stagedetect/blob/img/cap3.png?raw=true)
+![cap3](https://user-images.githubusercontent.com/81013477/123820078-249bd180-d8af-11eb-820e-49665f3df60f.PNG)
 
 4. Estimate waterline: rider “waterline image”  button “Detect waterline”
 - Water line approximations from step 3 are needed or if only one RoI defined for all 
 sequences (i.e. if no camera movement is expected) “Waterline approx.: single file” has to be 
 checked
 
-![alt text](https://github.com/fs-agadir/stagedetect/blob/img/cap4.png?raw=true)
+![cap4](https://user-images.githubusercontent.com/81013477/123820125-2ebdd000-d8af-11eb-9fe5-adc553d952f8.PNG)
 
 5. Get 3D water stage from water line in images considering 3D reference data (e.g. scaled SfM point 
 cloud): rider “2D to 3D (and again 2D)”  check “Water level Retrieval”  button “Get 3D form 
@@ -64,7 +66,7 @@ distortion and to orient image)  in tutorial dataset it is file “CameraCali
 “PointCloud_3D.txt”
 - Detected water lines from step 5 are needed
 
-![alt text](https://github.com/fs-agadir/stagedetect/blob/img/cap5.png?raw=true)
+![cap5](https://user-images.githubusercontent.com/81013477/123820166-38473800-d8af-11eb-87f8-8eda7985a70a.PNG)
 
 
 # How to cite
