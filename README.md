@@ -21,7 +21,7 @@ coordinates”  button “Img Master List”
 - Folder with images is folder “img_raw” in tutorial dataset
 - save all masters in a new folder
 
-![alt text](https://github.com/fs-agadir/stagedetect/blob/img/cap1.png?raw=true)
+<img hight="300" width="700" alt="GIF" align="center" src="https://github.com/fs-agadir/stagedetect/blob/main/cap1.png">
 
 2. Retrieve GCP image points for each master image of all sequences: rider “get GCP image 
 coordinates”  „Template Matching“
